@@ -1,11 +1,26 @@
-body{
+.full-body{
     font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Slab', serif;
 padding-left: 10%;
+margin: 0;
 }
 .introduction-mision{
     display: flex;
     padding-top: 5%;
+}
+.develop-limit{
+    display: flex;
+    padding-top: 7%;
+    
+}
+.back-image{
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left -550px;
+}
+
+.image-add{
+    display: flex;
 }
 .mission-border p{
     font-size: 70px;
@@ -42,4 +57,34 @@ padding-left: 10%;
     text-align: center;
     font-size: 60px;
     padding-top: 2%;
+    padding-bottom: 5%;
+}
+.mission-1{
+    box-shadow: 10px 10px 40px rgb(167, 193, 211);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-right: 2%;
+    border-radius: 5%;
+    background-color: rgba(210, 245, 245, 0.596);
+}
+.mission-2{
+    box-shadow: 10px 10px 40px rgb(100, 98, 190);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-right: 2%;
+    border-radius: 5%;
+    background-color: rgba(191, 160, 211, 0.747);
+}
+.mission-3{
+    box-shadow: 5px 5px 40px rgb(75, 142, 190);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-right: 2%;
+    border-radius: 5%;
+    background-color: rgba(200, 211, 41, 0.616);
+}
+.develop-without h1{
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
 }
