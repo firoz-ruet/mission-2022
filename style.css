@@ -14,9 +14,27 @@ margin: 0;
     
 }
 .back-image{
-    background-image: url(images/shapes/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: left -550px;
+    background-image:
+       url(images/shapes/shape-1.png);
+    background-repeat: no-repeat ;
+    background-size: 300px;
+    padding-left: 6%;
+    background-position: left;
+
+    
+}
+.project-develop{
+    display: flex;
+    padding-top: 7%;
+}
+.back-project
+{
+    background-image:
+    url(images/shapes/shape-1.png);
+    background-repeat: no-repeat ;
+    background-size: 300px;
+    padding-right: 8%;
+    background-position: bottom 10px right;
 }
 
 .image-add{
@@ -87,4 +105,11 @@ margin: 0;
     font-size: 50px;
     padding: 0;
     margin: 0;
+}
+.foot{
+    padding-top: 5%;
+    text-align: center;
+    background-color: rgb(180, 105, 105);
+    background-size: 100% 50%;
+
 }
